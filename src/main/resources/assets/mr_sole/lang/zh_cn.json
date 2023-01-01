@@ -1,0 +1,12 @@
+{
+  "item.mr_sole.sole": "龙脷鱼",
+  "item.mr_sole.cooked_sole": "熟龙脷鱼",
+  "item.mr_sole.music_disc_deep_ocean": "音乐唱片",
+  "item.mr_sole.music_disc_imagination": "音乐唱片",
+  "item.mr_sole.music_disc_sea_level": "音乐唱片",
+  "item.mr_sole.bucket_sole": "龙脷鱼桶",
+  "mr_sole.entity_sole_hurt": "龙脷鱼：受伤",
+  "mr_sole.entity_sole_flop": "龙脷鱼：扑腾",
+  "mr_sole.entity_sole_death": "龙脷鱼：死亡",
+  "entity.mr_sole.sole": "龙脷鱼"
+}

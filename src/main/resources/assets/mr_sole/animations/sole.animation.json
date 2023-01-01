@@ -1,0 +1,151 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.sole.swim": {
+      "loop": true,
+      "animation_length": 0.64,
+      "bones": {
+        "fin1": {
+          "rotation": {
+            "0.32": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.48": {
+              "vector": [
+                0,
+                0,
+                -5
+              ],
+              "easing": "easeInOutSine"
+            },
+            "0.64": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            }
+          }
+        },
+        "tail": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                -7.5,
+                0,
+                0
+              ]
+            },
+            "0.32": {
+              "vector": [
+                7.5,
+                0,
+                0
+              ]
+            },
+            "0.64": {
+              "vector": [
+                -7.5,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            }
+          }
+        },
+        "fin2": {
+          "rotation": {
+            "0.32": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.48": {
+              "vector": [
+                0,
+                0,
+                5
+              ],
+              "easing": "easeInOutSine"
+            },
+            "0.64": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            }
+          }
+        },
+        "fin3": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                0,
+                0,
+                0
+              ]
+            },
+            "0.24": {
+              "vector": [
+                5,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            },
+            "0.48": {
+              "vector": [
+                0,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            }
+          }
+        }
+      }
+    },
+    "animation.sole.idle": {
+      "loop": true,
+      "animation_length": 1.6,
+      "bones": {
+        "tail": {
+          "rotation": {
+            "0.0": {
+              "vector": [
+                -5,
+                0,
+                0
+              ]
+            },
+            "0.8": {
+              "vector": [
+                5,
+                0,
+                0
+              ]
+            },
+            "1.6": {
+              "vector": [
+                -5,
+                0,
+                0
+              ],
+              "easing": "easeInOutSine"
+            }
+          }
+        }
+      }
+    }
+  },
+  "geckolib_format_version": 2
+}

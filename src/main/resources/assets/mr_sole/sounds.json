@@ -1,0 +1,49 @@
+{
+  "entity_sole_ambient": {
+    "sounds": [
+      "mr_sole:entity_sole_ambient"
+    ]
+  },
+  "entity_sole_death": {
+    "subtitle": "mr_sole.entity_sole_death",
+    "sounds": [
+      "mr_sole:entity_sole_death"
+    ]
+  },
+  "entity_sole_flop": {
+    "subtitle": "mr_sole.entity_sole_flop",
+    "sounds": [
+      "mr_sole:entity_sole_flop"
+    ]
+  },
+  "entity_sole_hurt": {
+    "subtitle": "mr_sole.entity_sole_hurt",
+    "sounds": [
+      "mr_sole:entity_sole_hurt"
+    ]
+  },
+  "music_disc_deep_ocean": {
+    "sounds": [
+      {
+        "name": "mr_sole:music_disc_deep_ocean",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_imagination": {
+    "sounds": [
+      {
+        "name": "mr_sole:music_disc_imagination",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_sea_level": {
+    "sounds": [
+      {
+        "name": "mr_sole:music_disc_sea_level",
+        "stream": true
+      }
+    ]
+  }
+}

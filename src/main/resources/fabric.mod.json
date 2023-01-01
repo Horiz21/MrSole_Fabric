@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "mr_sole",
+  "version": "0.0.1",
+
+  "name": "MrSole",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/mr_sole/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.frankie.mr_sole.MrSole"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

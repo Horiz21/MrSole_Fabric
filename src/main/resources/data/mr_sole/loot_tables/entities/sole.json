@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                }
+              ],
+              "function": "minecraft:furnace_smelt"
+            }
+          ],
+          "name": "mr_sole:sole"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone_meal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mr_sole:music_disc_deep_ocean"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mr_sole:music_disc_imagination"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "mr_sole:music_disc_sea_level"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ]
+    }
+  ]
+}

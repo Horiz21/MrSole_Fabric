@@ -54,7 +54,7 @@ public class SoleEntity extends FishEntity implements GeoEntity {
     @Override
     public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
         controllers.add(
-                new AnimationController<>(this, 10, state -> state.setAndContinue(this.getMovementSpeed() > 0.1f ? ANIMATION_SOLE_IDLE : ANIMATION_SOLE_SWIM))
+                new AnimationController<>(this, 10, state -> state.setAndContinue(this.getMovementSpeed() > 0.3f ? ANIMATION_SOLE_SWIM : ANIMATION_SOLE_IDLE))
         );
     }
 

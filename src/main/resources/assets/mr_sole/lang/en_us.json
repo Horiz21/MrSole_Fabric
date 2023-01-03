@@ -12,5 +12,7 @@
   "mr_sole.entity_sole_hurt": "Sole hurts",
   "mr_sole.entity_sole_flop": "Sole flops",
   "mr_sole.entity_sole_death": "Sole dies",
-  "entity.mr_sole.sole": "Sole"
+  "entity.mr_sole.sole": "Sole",
+  "advancements.husbandry.mr_lonely.title": "Mr. Lonely?",
+  "advancements.husbandry.mr_lonely.description": "Catch a Sole with bucket."
 }

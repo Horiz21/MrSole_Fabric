@@ -10,5 +10,7 @@
   "mr_sole.entity_sole_hurt": "龙脷鱼：受伤",
   "mr_sole.entity_sole_flop": "龙脷鱼：扑腾",
   "mr_sole.entity_sole_death": "龙脷鱼：死亡",
-  "entity.mr_sole.sole": "龙脷鱼"
+  "entity.mr_sole.sole": "龙脷鱼",
+  "advancements.husbandry.mr_lonely.title": "孤独先生？",
+  "advancements.husbandry.mr_lonely.description": "往桶里装入一条龙脷鱼！"
 }

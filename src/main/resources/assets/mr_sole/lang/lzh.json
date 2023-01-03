@@ -9,5 +9,7 @@
   "mr_sole.entity_sole_hurt": "鰨傷",
   "mr_sole.entity_sole_flop": "鰨躍",
   "mr_sole.entity_sole_death": "鰨斃",
-  "entity.mr_sole.sole": "鰨"
+  "entity.mr_sole.sole": "鰨",
+  "advancements.husbandry.mr_lonely.title": "獨游一魚？",
+  "advancements.husbandry.mr_lonely.description": "以桶得鰨！"
 }

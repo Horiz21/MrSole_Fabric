@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "mr_sole:sole_bucket"
+    },
+    "title": {
+      "translate": "advancements.husbandry.mr_lonely.title"
+    },
+    "description": {
+      "translate": "advancements.husbandry.mr_lonely.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tactical_fishing",
+  "criteria": {
+    "sole_bucket": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "mr_sole:sole_bucket"
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sole_bucket"
+    ]
+  ]
+}

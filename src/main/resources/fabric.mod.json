@@ -1,18 +1,15 @@
 {
   "schemaVersion": 1,
   "id": "mr_sole",
-  "version": "0.0.1",
-
-  "name": "MrSole",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "version": "0.1",
+  "name": "Mr. Sole",
+  "description": "Meet this lonely fish: Sole, pronounced \"Longli\" in Chinese, which is a striking resemblance to the English pronunciation \"Lonely\" - plus, its English name \"Sole\" also seems to be quite a lonely name! Soles will slowly swim at the bottom of the ocean, perhaps with a small chance of bringing you three new music discs. By the way, they're really tasty!",
   "authors": [
-    "Me!"
+    "Horiz"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/MinamiyamaHokuto/MrSole_Fabric"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/mr_sole/icon.png",
 

@@ -14,6 +14,9 @@ public class ModSounds {
     public static final SoundEvent ENTITY_SOLE_DEATH = registerSoundEvent("entity_sole_death");
     public static final SoundEvent ENTITY_SOLE_FLOP = registerSoundEvent("entity_sole_flop");
     public static final SoundEvent ENTITY_SOLE_HURT = registerSoundEvent("entity_sole_hurt");
+    public static final SoundEvent ENTITY_MOLE_AMBIENT = registerSoundEvent("entity_mole_ambient");
+    public static final SoundEvent ENTITY_MOLE_HURT = registerSoundEvent("entity_mole_hurt");
+    public static final SoundEvent ENTITY_MOLE_DEATH = registerSoundEvent("entity_mole_death");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(MrSole.MOD_ID, name);
